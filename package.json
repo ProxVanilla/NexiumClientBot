@@ -1,0 +1,22 @@
+{
+  "name": "nexiumclient",
+  "version": "1.0.0",
+  "description": "NexiumClient - a modular purple-themed Discord bot with tickets, moderation, giveaways, price tracking, leveling, and verification.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "deploy": "node handlers/commandHandler.js --deploy"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
